@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace test
+namespace ココ
 {
     public partial class AppContainer : TitleBarTabs
     {
@@ -25,7 +25,7 @@ namespace test
         {
             return new TitleBarTab(this)
             {
-                Content = new Form1 { Text = "New Tab" }
+                Content = new フォーム名 { Text = "New Tab" }
             };
         }
     }
