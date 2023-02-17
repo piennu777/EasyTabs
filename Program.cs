@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace test
+namespace ココ
 {
     static class Program
     {
@@ -21,7 +21,7 @@ namespace test
             AppContainer container = new AppContainer();
             container.Tabs.Add(new EasyTabs.TitleBarTab(container)
             {
-                Content = new Form1
+                Content = new フォーム名
                 {
                     Text = "新しいタブ"
                 }
